@@ -1,0 +1,189 @@
+:root{
+
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.left-side{
+    padding: 0;
+    margin: 0;
+    background-image: url(pics/icicle.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 220px;
+}
+
+
+    
+.banner{
+    
+    background-color: rgba(0, 0, 0, 0.205);
+    margin-top: 69vh;
+    width: ;
+    
+    
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+    
+#logo {
+    color: aliceblue;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+
+#odin {
+    color: white; opacity: 200%;
+    align-self: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.right-side{
+    
+    color: black;
+    height: 100vh;
+    width: 60vw;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+.paragraph-1{
+    font-size: 24px;
+    margin-top: 100px; margin-left: 40px; margin-right: 300px; 
+    font-weight: bold;
+    min-width: 500px;
+}
+.paragraph-2{
+    font-size: 24px;
+    margin-left: 40px; margin-right: 300px; margin-bottom: 40px;
+    min-width: 500px;
+}
+.paragraph-3{
+    font-size: 24px;
+    margin-left: 40px; margin-right: 300px; margin-bottom: 40px;
+    min-width: 500px;
+
+}
+.paragraph-4{
+    font-size: 24px;
+    margin-left: 40px; margin-right: 300px; margin-bottom: 10px;
+    min-width: 500px;
+}
+
+form{
+    font-size: 12px;
+    color:grey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 40px; margin-right: 300px;
+    max-width: 600px;
+    max-height: 400px;
+    
+    
+}
+
+form > div{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input {
+    
+    color: black;
+    height: 24px;
+    width: 240px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 6px;
+    
+}
+
+input:focus{
+    border-color: skyblue;
+    border-width: 3px;
+    
+    
+    
+}
+
+.account{
+    display: flex;
+}
+
+.create {
+    color: aqua;
+    border-radius: 8px;
+    border-color: aqua;
+    font-size: larger;
+    height: 40px;
+    width: 240px;
+    min-width: 100px;
+    margin-top: 20px;
+
+    
+}
+
+.existing-account {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    min-width: 300px;
+}
+
+
+
+
+a{
+    font-size: 16px;
+    color: aqua;
+}
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+    
